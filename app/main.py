@@ -62,7 +62,7 @@ app = FastAPI(
     lifespan=lifespan,
     contact={
         "name": "Abdullah Yiğit Yıldırımoğlu",
-        "email": "yigitabdullah329@gmail.com@gmail.com",
+        "email": "yigitabdullah329@gmail.com",
     },
    
 )
