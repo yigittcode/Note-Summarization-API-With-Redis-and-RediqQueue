@@ -13,7 +13,7 @@ class TestHealthEndpoints:
         assert response.status_code == 200
         data = response.json()
         assert "message" in data
-        assert "Testcase Codex API" in data["message"]
+        assert "AI Summarizer API" in data["message"]
 
     @pytest.mark.integration
     async def test_health_check_endpoint(self, test_client: AsyncClient):
