@@ -192,15 +192,3 @@ def summarize_note_task(note_id: int):
         summary = f"Priority summary: {text[:100]}..."
 ```
 
-## 🔗 Documentation
-
-- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Complete setup guide
-- **[LOOM_VIDEO_SCRIPT.md](LOOM_VIDEO_SCRIPT.md)** - Video demonstration script
-- **[DEPENDENCY_INJECTION.md](DEPENDENCY_INJECTION.md)** - Architecture deep dive
-- **[REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md)** - Production improvements
-
----
-
-**🎬 Live Demo**: [Your deployed URL here]
-**📖 API Docs**: `http://localhost:8000/docs`
-**💻 GitHub**: [Your repo URL here]
